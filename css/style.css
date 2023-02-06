@@ -364,7 +364,9 @@ a:focus{
 #menu-bar{
     position: relative;
     z-index: 9999;
-    background-image: url('../p5.png');
+    /* background-image: url('../p5.png'); */
+    background: #fff;
+    box-shadow: 0 5px 5px -6px #000;
 }
 #logo {margin-top: 2%; }
 
@@ -382,8 +384,8 @@ a:focus{
 /* page_head Title
 ====================================*/
 .page_head {
-    border-bottom: 2px solid #ef2d34;
-	padding:40px 0;
+    /* border-bottom: 2px solid #ef2d34; */
+	padding:30px 0 20px;
     clear:both;
 }
 
@@ -747,7 +749,7 @@ ul.sm li *,ul.sm li *:before,ul.sm li *:after{-moz-box-sizing:content-box;-webki
 
 /*  ----------- Craed ----------------- */
 .card {
-    box-shadow: 0 0 20px rgb(1 118 190 / 25%);
+    box-shadow: 0 0 10px rgb(1 118 190 / 10%);
     padding: 20px 0;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -2956,7 +2958,7 @@ label{
     color: #fff;
     width: 100%;
     background-color: transparent;
-    box-shadow: 0 0 20px rgb(1 118 190 / 25%);
+    box-shadow: 0 0 10px rgb(1 118 190 / 10%);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -3198,7 +3200,7 @@ section.parallax h2 {
 ====================================*/
 .serviceBox_2{
     background: hsl(0, 0%, 100%);
-    box-shadow: 0 0 20px rgb(1 118 190 / 25%);
+    box-shadow: 0 0 10px rgb(1 118 190 / 10%);
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
@@ -3952,21 +3954,39 @@ ul.client_items {
     margin:0;
     color:#fff;
     border-radius:0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
 {
-    border-color:#ebebeb;
+    border-color:transparent;
     outline:none;
-    background:white;
-    color:#ef2d34;
+    background:#ef2d34;
+    color:#fff;
     font-weight: bold;
     margin:0 0 -1px 0;
     border-bottom:none;
-    border-top: 1px solid #ef2d34;
 }
 .nav-tabs li.active, .nav-tabs li.active a, .nav-tabs li.active a:hover {
-    border-top: 1px solid #ef2d34;
-    color:#ef2d34;
+    /*border-top: 1px solid #ef2d34;
+    */color:#fff;
+    background-color: #ef2d34;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.nav-tabs>li>a:hover {
+    border-color:transparent;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #ef2d34;
 }
 
 ul.nav-tabs li a i {
@@ -4401,6 +4421,9 @@ h5.circular-title{
 /* ================================================== */
 /*   26. TITLE                                        */
 /* ================================================== */
+.who-we-are-text {
+    line-height: 2;
+}
 .dividerHeading h4,
 .widget_title h4
 {
@@ -4885,7 +4908,7 @@ ul{
 /* --------list style 2 : Circle CSS---------- */
 .list_style.circle li {
     padding: 15px 2px 15px 50px;
-    box-shadow: 0 0 20px rgb(1 118 190 / 25%);
+    box-shadow: 0 0 10px rgb(1 118 190 / 10%);
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -5125,6 +5148,13 @@ ul{
     border-color: hsl(0, 0%, 95%);
     border-width: 1px;
     color: hsl(195, 2%, 38%);
+}
+.table tr:nth-child(even) {
+    background: #ddd;
+}
+.table tr:nth-child(odd) {
+    background: #18254f;
+    color: #fff;
 }
 .table tr td.remove {
     text-align: center;
