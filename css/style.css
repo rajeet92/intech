@@ -41,6 +41,9 @@ h6 {
     font-size: 10px;
     line-height: 20px;
 }
+p {
+    line-height: 2;
+}
 
 a {text-decoration: none ;}
 a:hover{
@@ -407,6 +410,11 @@ a:focus{
     background: #ef2d34;
     float: right;
     padding: 3px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 #breadcrumbs ul {
     font-size: 12px;
@@ -1714,7 +1722,7 @@ figure:hover .option .fa-shopping-cart {
     text-transform: uppercase;
 }
 .blog{
-    padding:50px 0;
+    padding:0px 0;
 }
 .blog_large .post, .blog_single .post{
     padding-bottom:50px;
@@ -5173,6 +5181,17 @@ ul{
     transition: background-color 0.3s ease 0s;
     vertical-align: middle !important;
     padding: 8px;
+}
+.portfolio_list .list_item figure{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.portfolio_list .list_item {
+    margin: 0;
+    padding-bottom: 10px;
 }
 .shop-coupon input[type="text"] {
     border: 1px solid hsl(0, 0%, 92%);

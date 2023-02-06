@@ -179,9 +179,10 @@ if(isset($_POST["send-message"])){
                   <div class="row sub_content">
                       <div class="dividerHeading">
                           <h4><span>Get in Touch</span></h4>
-                          <p>Welcome to INTECH Insurance Surveyors Private Limited. How May I Assist You..?</p> <br>
+                          <p style="text-align:center;">Welcome to INTECH Insurance Surveyors Private Limited. How May I Assist You..?</p> <br>
                       </div>
-                      <div class="col-lg-7 col-md-7 col-sm-7" style="border: 1px solid #182554; padding: 27px;">
+                     <div class="row card" style="padding:20px;">
+                     <div class="col-lg-7 col-md-7 col-sm-7" style="border: 1px solid #182554; padding: 27px;">
                           <form id="contacts" action="contact.php" method="post">
                               <div class="row">
                                   <div class="form-group">
@@ -262,18 +263,19 @@ if(isset($_POST["send-message"])){
 
                           </div>
                       </div>
+                     </div>
 
                   </div>
               </div>
           </section>
           <section id="contact" class="contact ">
-              <div class="container-fluid" data-aos="fade-up">
-                  <div class="row">
+              <div class="container" data-aos="fade-up">
+                  <div class="row card">
                       <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
                         
 
                       <iframe src="https://www.google.com/maps/d/embed?mid=1xYkx7aurp9O9As7bGw0PUXFP75R080Q&ehbc=2E312F"  width="100%" height="725" style="border:1px solid
-                    #8e909b"  allowfullscreen="" loading="lazy"></iframe>
+                    #8e909b; border-radius: 10px;"  allowfullscreen="" loading="lazy"></iframe>
 
 
                       </div>
@@ -625,10 +627,7 @@ if(isset($_POST["send-message"])){
                   </div>
               </div>
           </div>
-      </footer>
-      <!--end footer-->
-
-      <section class="footer_bottom">
+          <section class="footer_bottom">
           <div class="container">
               <div class="row">
                   <div class="col-sm-6">
@@ -648,6 +647,8 @@ if(isset($_POST["send-message"])){
               </div>
           </div>
       </section>
+      </footer>
+      <!--end footer-->
 
       <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
