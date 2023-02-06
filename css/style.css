@@ -2498,7 +2498,8 @@ a.back_home {
 /* OUR TEAM PAGE
 ===================================================== */
 .team{
-    background-image: url('../p5.png');
+    /* background-image: url('../p5.png'); */
+    background: #fff;
 }
 .team-item-content {
     overflow: hidden;
@@ -3124,7 +3125,8 @@ section.parallax h2 {
 /* ======================================================================== */
 .info_service {
     padding:1% 0 0;
-    background-image: url('../p5.png');
+    /* background-image: url('../p5.png'); */
+    background: #fff;
 }
 
 /* Service Box 1
