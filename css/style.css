@@ -5395,6 +5395,33 @@ ul{
 }
 
 @media only screen and (max-width: 767px) {
+    .card {
+        padding: 20px 10px;
+    }
+
+    .dividerHeading h4, .widget_title h4 {
+        font-size: 20px;
+    }
+
+    .dividerHeading h4 span::before {
+        /* width: 50px;
+        left: -55px; */
+        display: none;
+    }
+
+    .dividerHeading h4 span::after {
+        /* width: 50px;
+        right: -55px; */
+        display: none;
+    }
+
+    .parallax-testimonial {
+        /* margin: 0 15px; */
+        width: 90%;
+    }
+    ul.client_items li {
+        margin: 19px 0;
+    }
 
     #menu-bar{padding: 10px 0 20px;}
 
