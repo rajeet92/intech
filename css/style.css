@@ -4418,6 +4418,32 @@ h5.circular-title{
     width: 35px;
 
 }
+.dividerHeading h4 span, 
+.widget_title h4 span {
+    position: relative;
+}
+.dividerHeading h4 span::before, 
+.widget_title h4 span::before {
+    content: "";
+        display: block;
+        width: 100px;
+        height: 5px;
+        background: #f03037;
+        left: -118px;
+        top: 50%;
+        position: absolute;
+}
+.dividerHeading h4 span::after, 
+.widget_title h4 span::after {
+    content: "";
+        display: block;
+        width: 100px;
+        height: 5px;
+        background: #f03037;
+        right: -118px;
+        top: 50%;
+        position: absolute;
+}
 .dividerHeading h4::after,
 .widget_title h4::after {
     bottom: -1px;
