@@ -41,6 +41,9 @@ h6 {
     font-size: 10px;
     line-height: 20px;
 }
+p {
+    line-height: 2;
+}
 
 a {text-decoration: none ;}
 a:hover{
@@ -93,7 +96,7 @@ a:focus{
 }
 
 .sub_content {
-    padding: 30px 0;
+    padding: 15px 0;
 }
 
 .super_sub_content{
@@ -145,7 +148,7 @@ a:focus{
     line-height:28px;
 }
 .top-info span {
-    font-size: 16px;
+    font-size: 12px;
     padding-right: 45px;
 }
 .top-info span i {
@@ -205,7 +208,7 @@ a:focus{
 .shope-cart .cart-dropdown{
     color:#fff;
     display: block;
-    font-size: 17px;
+    font-size: 13px;
     line-height: 18px;
     padding: 11px 15px 7px 10px;
     position: relative;
@@ -364,12 +367,14 @@ a:focus{
 #menu-bar{
     position: relative;
     z-index: 9999;
-    background-image: url('../p5.png');
+    /* background-image: url('../p5.png'); */
+    background: #fff;
+    box-shadow: 0 5px 5px -6px #000;
 }
 #logo {margin-top: 2%; }
 
 #logo img{
-    width:100%;
+    width:60%;
     height:auto;
 }
 
@@ -382,8 +387,8 @@ a:focus{
 /* page_head Title
 ====================================*/
 .page_head {
-    border-bottom: 2px solid #ef2d34;
-	padding:40px 0;
+    /* border-bottom: 2px solid #ef2d34; */
+	padding:30px 0 20px;
     clear:both;
 }
 
@@ -405,6 +410,11 @@ a:focus{
     background: #ef2d34;
     float: right;
     padding: 3px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 #breadcrumbs ul {
     font-size: 12px;
@@ -459,6 +469,9 @@ a:focus{
 
     min-height:35px;
     border:none;
+}
+.contact {
+    padding: 15px 0;
 }
 
 /* sub menus arrows */
@@ -591,24 +604,24 @@ a:focus{
 .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus
 {
     background:transparent;
-    color:#fff!important;
+    color:#ef2d34!important;
 }
 
-.navbar-default .navbar-nav > li:hover > a{background: #ef2d34 !important;}
+.navbar-default .navbar-nav > li:hover > a{background: transparent !important;}
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     background-color: #ef2d34 !important;
 }
 
 .nav.navbar-nav > li > a{
-    border: 2px solid transparent;
+    /* border: 2px solid transparent; */
 }
 .nav.navbar-nav > li.active > a{
 color: red;
 }
 .nav.navbar-nav > li:hover > a{
-    background:#ef2d34;
-    border: 2px solid #ef2d34;
+    background:transparent;
+    border: none;
 }
 
 /* add more indentation for 2+ level sub in collapsible mode - Bootstrap normally supports just 1 level sub menus */
@@ -742,6 +755,17 @@ ul.sm li *,ul.sm li *:before,ul.sm li *:after{-moz-box-sizing:content-box;-webki
     animation-name: fadeInUp;
 }
 
+/*  ----------- Craed ----------------- */
+.card {
+    box-shadow: 0 0 10px rgb(1 118 190 / 10%);
+    padding: 20px 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
 /*------------Hover_Effect_CSS------------*/
 .navbar-default .navbar-nav > li > a {
     overflow: hidden;
@@ -787,13 +811,14 @@ ul.sm li *,ul.sm li *:before,ul.sm li *:after{-moz-box-sizing:content-box;-webki
 /* 4. FOOTER & FOOTER WIDGETS							*/
 /* ===================================================== */
 .footer_bottom{
-    background:#182554;
-    padding:20px 0;
+    padding:10px 0;
     color:#fff;
+    background: rgba(0,0,0,.4);
+    margin-top: 15px;
 }
 .footer{
     background:#182454;
-    padding:30px 0;
+    padding:30px 0 0;
     position: relative;
     color:#fff;
 }
@@ -802,6 +827,7 @@ ul.sm li *,ul.sm li *:before,ul.sm li *:after{-moz-box-sizing:content-box;-webki
 ====================================*/
 .widget_content{
     margin-top: 15px;
+    line-height: 2.5;
 }
 .widget_content > p {
     font-family: Pt Sans,Helvetica, Arial, sans-serif;
@@ -1696,7 +1722,7 @@ figure:hover .option .fa-shopping-cart {
     text-transform: uppercase;
 }
 .blog{
-    padding:50px 0;
+    padding:0px 0;
 }
 .blog_large .post, .blog_single .post{
     padding-bottom:50px;
@@ -2213,10 +2239,26 @@ h4.comment-author a{color:#555}
 /* 8. HOME PAGE						                     */
 /* ===================================================== */
 .lead {
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
     font-weight:500;
     text-align: justify;
+    line-height: 2;
+}
+.lead a {
+    color: #ef2d34;
+}
+
+.img-thumbnail {
+    padding: 0px;
+    border-radius: 20px;
+}
+.about-image-section:hover .img-thumbnail {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 /* Texture Section
@@ -2466,7 +2508,8 @@ a.back_home {
 /* OUR TEAM PAGE
 ===================================================== */
 .team{
-    background-image: url('../p5.png');
+    /* background-image: url('../p5.png'); */
+    background: #fff;
 }
 .team-item-content {
     overflow: hidden;
@@ -2608,6 +2651,31 @@ label{
     font-weight: 600;
     text-transform: uppercase;
 }
+.bg-video-wrap {
+    position: relative;
+}
+.bg-video-wrap video {
+    width:100%;
+}
+.is-sticky {
+    background: transparent;
+}
+.sticky-wrapper.is-sticky #menu-bar {
+    background: transparent;
+}
+.sticky-wrapper.is-sticky #menu-bar .navbar-default .navbar-nav > li > a {
+    color:#fff;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    background-size: 3px 3px;
+    z-index: 2;
+  }
 .contact_2 .widget_info_contact p {
     line-height: 22px;
 }
@@ -2897,7 +2965,17 @@ label{
     text-align: center;
     color: #fff;
     width: 100%;
-    background-color: #18254f;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgb(1 118 190 / 10%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 30px;
+}
+.list_style {
+    margin-top: 30px;
 }
 .parallax-testimonial-review > img {
     background: #ffffff;
@@ -2924,7 +3002,7 @@ label{
     margin-bottom: 0;
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: #000;
     position: relative;
     z-index: 10;
 }
@@ -2947,7 +3025,7 @@ label{
 }
 .parallax-testimonial .carousel-indicators{
     bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: 15px;
 }
 
 
@@ -3061,7 +3139,8 @@ section.parallax h2 {
 /* ======================================================================== */
 .info_service {
     padding:1% 0 0;
-    background-image: url('../p5.png');
+    /* background-image: url('../p5.png'); */
+    background: #fff;
 }
 
 /* Service Box 1
@@ -3129,40 +3208,50 @@ section.parallax h2 {
 ====================================*/
 .serviceBox_2{
     background: hsl(0, 0%, 100%);
-    border: 1px solid hsl(0, 0%, 82%);
-    box-shadow: 5px 5px 0 hsla(0, 97%, 14%, 0.07);
+    box-shadow: 0 0 10px rgb(1 118 190 / 10%);
     padding: 20px;
     margin-top: 20px;
-    border-radius: 0 45px;
-    color: #fff;
+    border-radius: 10px;
+    color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .readmorebtn{
-    color: #000;
+    color: #ef2d34;
+    font-weight: 600;
 }
 .bg-color1{
-    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
+    background: transparent;
 }
 .bg-color2{
-    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
+    background: transparent;
 }
 .bg-color3{
-    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
+    background: transparent;
 }
 .bg-color4{
-    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+    /* background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%); */
+    background: transparent;
 }
 .bg-color5{
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+    background: transparent;
 }
 .bg-color6{
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); */
+    background: transparent;
 }
 .serviceBox_2 .service-icon{
     float: left;
 }
 .serviceBox_2 .service-content h3{
     margin: 11px 0 30px 67px;
-    color: #fff;
+    color: #000;
     font-size: 15px;
     font-weight: 600;
 }
@@ -3173,7 +3262,7 @@ section.parallax h2 {
 }
 .serviceBox_2 .service-icon i{
     box-shadow: 5px 5px 0 hsla(0, 98%, 19%, 0.1);
-    color: hsl(0, 0%, 100%);
+    color: #000;
     font-size: 26px;
     font-weight: 600;
     height: 50px;
@@ -3183,10 +3272,11 @@ section.parallax h2 {
     transition:all 0.2s ease-in-out;
 }
 .serviceBox_2:hover .service-icon i{
-    background: hsl(208, 17%, 20%);
+    background: hsl(239deg 43% 41%);
     border-radius: 50%;
     transform: translate(0px, 3px);
     transition:all 0.5s ease-in-out;
+    color:#fff;
 }
 
 /* service Box 3
@@ -3872,21 +3962,39 @@ ul.client_items {
     margin:0;
     color:#fff;
     border-radius:0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
 {
-    border-color:#ebebeb;
+    border-color:transparent;
     outline:none;
-    background:white;
-    color:#ef2d34;
+    background:#ef2d34;
+    color:#fff;
     font-weight: bold;
     margin:0 0 -1px 0;
     border-bottom:none;
-    border-top: 1px solid #ef2d34;
 }
 .nav-tabs li.active, .nav-tabs li.active a, .nav-tabs li.active a:hover {
-    border-top: 1px solid #ef2d34;
-    color:#ef2d34;
+    /*border-top: 1px solid #ef2d34;
+    */color:#fff;
+    background-color: #ef2d34;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.nav-tabs>li>a:hover {
+    border-color:transparent;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #ef2d34;
 }
 
 ul.nav-tabs li a i {
@@ -4127,6 +4235,11 @@ ul.recent_tab_list li
     background: #fff !important;
     color:#6d6d6d;
     border-color:lightgray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .panel-title .collapsed .left-icon{
@@ -4242,13 +4355,14 @@ h5.circular-title{
 /* ===================================================== */
 .promo_box {
     background:#f2f2f2;
-    padding: 20px 0;
+    padding: 10px 0;
     overflow: hidden;
 }
 .promo_box .pb_action a.btn {
     float: right;
-    margin-top:5px;
+    margin-top:0px;
     border:none;
+    padding: 5px 20px;
 }
 .promo_box .pb_action a.btn i{
     margin-right:7px;
@@ -4274,22 +4388,27 @@ h5.circular-title{
 /* Reverse Promo Box
 ====================================*/
 .promo_box.reverse{
-    background:#ef2d34;
+    background: #182454;
+    opacity: 0.8;
 }
 .promo_box.reverse .promo_content h3 {
     color:#fff;
-    font-size: 30px;
+    font-size: 25px;
 }
 .promo_box.reverse .promo_content p{
     color:#fff;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1;
 }
 .promo_box.reverse .pb_action a.btn{
     background: #fff;
     border: 2px solid #fff;
-    border-radius: 0;
+    border-radius: 10px;
     color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .promo_box.reverse .pb_action a.btn:hover {
     background:#ef2d34;
@@ -4310,15 +4429,19 @@ h5.circular-title{
 /* ================================================== */
 /*   26. TITLE                                        */
 /* ================================================== */
+.who-we-are-text {
+    line-height: 2;
+}
 .dividerHeading h4,
 .widget_title h4
 {
-    border-bottom: 1px solid #8f0606;
-    font-size: 20px;
+    border-bottom: none;
+    font-size: 25px;
     font-weight: 700;
-    margin-bottom: 25px;
-    padding: 0 0 10px;
+    color: #000;
+    padding: 0 0 0px;
     position: relative;
+    text-align: center;
 }
 
 .dividerHeading h4::before,
@@ -4331,6 +4454,30 @@ h5.circular-title{
     position: absolute;
     width: 35px;
 
+}
+.dividerHeading h4 span, 
+.widget_title h4 span {
+    position: relative;
+}
+.dividerHeading h4 span::before {
+    content: "";
+        display: block;
+        width: 100px;
+        height: 5px;
+        background: #3c3d96;
+        left: -118px;
+        top: 50%;
+        position: absolute;
+}
+.dividerHeading h4 span::after {
+    content: "";
+        display: block;
+        width: 100px;
+        height: 5px;
+        background: #3c3d96;
+        right: -118px;
+        top: 50%;
+        position: absolute;
 }
 .dividerHeading h4::after,
 .widget_title h4::after {
@@ -4348,8 +4495,11 @@ h5.circular-title{
 .widget_title h4::after,
 .dividerHeading h4::before,
 .widget_title h4::before{
-   background: #ef2d34;
+   /* background: #ef2d34; */
    text-align: center;
+}
+.team .container-new {
+    padding-top: 30px;
 }
 
 .dividerHeading.text-center h4:before{
@@ -4367,6 +4517,7 @@ h5.circular-title{
 }
 .footer .widget_title h4{
     border-color: #B5B5B5;
+    text-align: left !important;
 }
 .footer .widget_title h4 span{
     color:#fff;
@@ -4764,7 +4915,10 @@ ul{
 
 /* --------list style 2 : Circle CSS---------- */
 .list_style.circle li {
-    padding:3px 2px 3px 23px;
+    padding: 15px 2px 15px 50px;
+    box-shadow: 0 0 10px rgb(1 118 190 / 10%);
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 .list_style.circle li:before{
     font-family: FontAwesome;
@@ -4783,8 +4937,8 @@ ul{
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
     position: absolute;
-    left: 0;
-    top: 5px;
+    left: 15px;
+    top: 15px;
 }
 
 /* --------list style 3 : Square CSS---------- */
@@ -5003,6 +5157,13 @@ ul{
     border-width: 1px;
     color: hsl(195, 2%, 38%);
 }
+.table tr:nth-child(even) {
+    background: #ddd;
+}
+.table tr:nth-child(odd) {
+    background: #18254f;
+    color: #fff;
+}
 .table tr td.remove {
     text-align: center;
 }
@@ -5020,6 +5181,17 @@ ul{
     transition: background-color 0.3s ease 0s;
     vertical-align: middle !important;
     padding: 8px;
+}
+.portfolio_list .list_item figure{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.portfolio_list .list_item {
+    margin: 0;
+    padding-bottom: 10px;
 }
 .shop-coupon input[type="text"] {
     border: 1px solid hsl(0, 0%, 92%);
@@ -5272,6 +5444,33 @@ ul{
 }
 
 @media only screen and (max-width: 767px) {
+    .card {
+        padding: 20px 10px;
+    }
+
+    .dividerHeading h4, .widget_title h4 {
+        font-size: 20px;
+    }
+
+    .dividerHeading h4 span::before {
+        /* width: 50px;
+        left: -55px; */
+        display: none;
+    }
+
+    .dividerHeading h4 span::after {
+        /* width: 50px;
+        right: -55px; */
+        display: none;
+    }
+
+    .parallax-testimonial {
+        /* margin: 0 15px; */
+        width: 90%;
+    }
+    ul.client_items li {
+        margin: 19px 0;
+    }
 
     #menu-bar{padding: 10px 0 20px;}
 
@@ -5586,6 +5785,9 @@ ul{
 
     .sub_content {
         padding: 10px 0;
+    }
+    .why-choose.dividerHeading h4 {
+        margin-bottom: 30px !important;
     }
 
     .post-images {
@@ -6079,8 +6281,10 @@ ul{
 
 }
 .img-border{
-    border: 1px solid #182554;
-    padding: 5px;
+    /* border: 1px solid #182554; */
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 20px;
 }
 
 .whatsapp{position:fixed;bottom:20px;  left:2px;z-index:9999}
