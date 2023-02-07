@@ -102,13 +102,14 @@ if(isset($_POST["send-message"])){
                               <ul class="nav navbar-nav">
                                   <li><a href="index.html">Home</a></li>
                                   <li><a href="#">About Us</a>
-                                      <ul class="dropdown-menu">
-                                          <li><a href="who-we-are.html">Who We Are</a></li>
-                                          <li><a href="corporate-journey.html">Corporate Journey</a></li>
-                                          <li><a href="fame of intech.html">Fame of Intech</a></li>
-                                          <li><a href="our-team.html">Team</a></li>
-                                          <li><a href="vission.html">Mission & Vision</a></li>
-                                      </ul>
+                                  <ul class="dropdown-menu">
+                                        <li><a class="smooth-goto" href="who-we-are.html#about">Who We Are</a></li>
+                                        <li><a class="smooth-goto" href="who-we-are.html#corporatejourny">Corporate Journey</a></li>
+                                        <li><a class="smooth-goto" href="who-we-are.html#ourexpert">Fame of Intech</a></li>
+                                        <li><a class="smooth-goto" href="who-we-are.html#ourteam">Team</a></li>
+                                        <li><a class="smooth-goto" href="who-we-are.html#ourclient">Our Client</a></li>
+                                        <li><a class="smooth-goto" href="who-we-are.html#missionvission">Mission & Vision</a></li>
+                                    </ul>
                                   </li>
 
                                   <li><a href="#">Our Services</a>
@@ -135,7 +136,7 @@ if(isset($_POST["send-message"])){
                                       </ul>
                                   </li>
 
-                                  <li><a href="our-clients.html">Our Clients</a> </li>
+                                  <!-- <li><a href="our-clients.html">Our Clients</a> </li> -->
                                   <li><a href="#">Culture And Career</a>
                                       <ul class="dropdown-menu">
                                           <li><a href="life@intech.html">Life @ Intech</a></li>
