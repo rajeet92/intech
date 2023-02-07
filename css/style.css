@@ -404,6 +404,33 @@ a:focus{
     border-bottom: 3px solid #ef2d34;
 }
 
+.mt{
+    margon-top:30px;
+}
+.flex_caption1 {
+    position: absolute;
+    z-index: 999;
+    top: 40%;
+    left: 20%;
+}
+.flex_caption1 .slide-heading {
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    font-size: 25px;
+}
+.flex_caption1 .sub-line {
+    color: #fff;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.flex_caption1 .slider-read {
+    background: #ef2d34;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+
 /* Breadcrumbs
 ====================================*/
 #breadcrumbs{
@@ -2672,7 +2699,7 @@ label{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.5);
     background-size: 3px 3px;
     z-index: 2;
   }
@@ -5444,6 +5471,16 @@ ul{
 }
 
 @media only screen and (max-width: 767px) {
+    .flex_caption1 .slide-heading {
+        font-size: 18px;
+    }
+    .flex_caption1 {
+        top: 25%;
+        left: 5%;
+    }
+    .flex_caption1 .sub-line {
+        letter-spacing: normal;
+    }
     .card {
         padding: 20px 10px;
     }
