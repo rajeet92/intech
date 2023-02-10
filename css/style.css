@@ -365,12 +365,11 @@ a:focus{
 ====================================*/
 
 #menu-bar{
-    position: absolute;
+    position: relative;
     z-index: 9999;
-    width: 100%;
     /* background-image: url('../p5.png'); */
-    background: transparent;
-    /* box-shadow: 0 5px 5px -6px #000; */
+    background: #fff;
+    box-shadow: 0 5px 5px -6px #000;
 }
 #logo {margin-top: 2%; }
 
@@ -406,7 +405,7 @@ a:focus{
 }
 
 .mt{
-    margon-top:30px;
+    margin-top:30px;
 }
 .flex_caption1 {
     position: absolute;
@@ -531,7 +530,7 @@ a:focus{
 }
 .navbar-nav > li > .has-submenu .sub-arrow:before {
     content: "\f107";
-    color: #fff;
+    color: #3c3d96;
 }
 .navbar-nav ul .sub-arrow {
     position:absolute;
@@ -713,7 +712,7 @@ ul.sm li *,ul.sm li *:before,ul.sm li *:after{-moz-box-sizing:content-box;-webki
     /* opacity:0.95; */
 }
 .sticky-wrapper.is-sticky #menu-bar .nav.navbar-nav li:hover{
-    background-color:#7885CF;
+    background-color:transparent;
 }
 .sticky-wrapper.is-sticky #menu-bar .nav.navbar-nav > li:hover > a {
     background:transparent;
@@ -800,7 +799,7 @@ ul.sm li *,ul.sm li *:before,ul.sm li *:after{-moz-box-sizing:content-box;-webki
     height: 22px;
     line-height: 22px;
     padding: 10px 12px;
-    color: #fff;
+    color: #404192;
     font-weight: 600;
     text-transform: capitalize;
 
@@ -3717,7 +3716,7 @@ ul.client_items { padding: 0; }
 ul.client_items li {
     list-style:none;
     margin: 19px;
-    background: #3c3d96;
+    background: #fff;
 }
 ul.client_items {
     position: relative;
@@ -5053,6 +5052,10 @@ ul{
     box-shadow: 0 0 10px rgb(1 118 190 / 10%);
     margin-bottom: 10px;
     border-radius: 10px;
+}
+.list_style.circle.cirnew li {
+    margin-bottom: 20px;
+    padding: 10px 2px 10px 50px
 }
 .list_style.circle li:before{
     font-family: FontAwesome;
