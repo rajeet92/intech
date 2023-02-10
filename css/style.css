@@ -3716,7 +3716,7 @@ ul.client_items { padding: 0; }
 ul.client_items li {
     list-style:none;
     margin: 19px;
-    background: #3c3d96;
+    background: #fff;
 }
 ul.client_items {
     position: relative;
