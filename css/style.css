@@ -1364,6 +1364,10 @@ figure {
     text-align: center;
     cursor: pointer;
 }
+.service-banner .service-banner-inner img{
+    width:100%;
+    height: 450px;
+}
 
 figure img {
     position: relative;
@@ -1534,7 +1538,7 @@ figure.effect-bubba:hover p {
 figure .option{
     text-align: center;
     position: absolute;
-    top: 33%;
+    top: 24%;
     z-index: 1;
     width: 100%;
     transform: translate3d(0px, -20px, 0px);
