@@ -127,12 +127,10 @@ if(isset($_POST["send-message"])){
                                                   <li><a href="cat-losses.html">CAT Losses</a></li>
                                               </ul>
                                           </li>
-                                          <li><a href="risk-inspections.html">Risk Inspections</a></li>
-                                          <li><a href="property-valuations.html">IBBI Registered Property Valuers</a>
-                                          </li>
-                                          <li><a href="pre-dishpaches.html">Pre-Dispatch Inspections</a></li>
-                                          <li><a href="charted-engineering.html">Charted Engineering Certifications</a>
-                                          </li>
+                                          <li><a class="smooth-goto" href="risk-inspections.html#riskinspection">Risk Inspections</a></li>
+                                        <li><a class="smooth-goto" href="risk-inspections.html#propertyvaluations">IBBI Registered Property Valuers</a></li>
+                                        <li><a class="smooth-goto" href="risk-inspections.html#dispatch">Pre-Dispatch Inspections</a></li>
+                                        <li><a class="smooth-goto" href="risk-inspections.html#chartedEngineer">Charted Engineering Certifications</a></li>
                                       </ul>
                                   </li>
 
@@ -269,276 +267,96 @@ if(isset($_POST["send-message"])){
                   </div>
               </div>
           </section>
-          <section id="contact" class="contact ">
-              <div class="container" data-aos="fade-up">
-                  <div class="row card">
-                      <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        
-
-                      <iframe src="https://www.google.com/maps/d/embed?mid=1xYkx7aurp9O9As7bGw0PUXFP75R080Q&ehbc=2E312F"  width="100%" height="725" style="border:1px solid
-                    #8e909b; border-radius: 10px;"  allowfullscreen="" loading="lazy"></iframe>
-
-
-                      </div>
-                      <div class="col-lg-5 d-flex align-items-stretch">
-                          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                              <div class="panel panel-default">
-                                  <div class="panel-heading" role="tab" id="heading1">
-                                      <h4 class="panel-title">
-                                          <a class="collapsed" role="button" data-toggle="collapse"
-                                              data-parent="#accordion" href="#collapse1" aria-expanded="true"
-                                              aria-controls="collapse1">
-                                              <span class="left-icon"><i class="fa fa-location-arrow"></i></span>
-                                              Hyderabad
-                                          </a>
-                                      </h4>
-                                  </div>
-                                  <div id="collapse1" class="panel-collapse collapse" role="tabpanel"
-                                      aria-labelledby="heading1">
-                                      <div class="panel-body"> <b>Address :</b> Suit No 4D, Vamsiram’s Jyothi
-                                          Square, Road No 3, Banjara Hills, Hyderabad, Telangana, India - 500034
-                                          <br><b>Email : </b> <a href="mailto:claims@inspl.in">claims@inspl.in</a>
-                                          <br><b> Name: </b> Mrs. Shirisha <br><b>Contact : </b> <a
-                                              href="+91 9000789448">+91 9000789448</a> </div>
-                                  </div>
-                              </div>
-                              <div class="panel panel-default">
-                                  <div class="panel-heading" role="tab" id="heading2">
-                                      <h4 class="panel-title">
-                                          <a class="collapsed" role="button" data-toggle="collapse"
-                                              data-parent="#accordion" href="#collapse2" aria-expanded="false"
-                                              aria-controls="collapse2">
-                                              <span class="left-icon"><i class="fa fa-location-arrow"></i></span>
-                                              Visakhapatnam
-                                          </a>
-                                      </h4>
-                                  </div>
-                                  <div id="collapse2" class="panel-collapse collapse" role="tabpanel"
-                                      aria-labelledby="heading2">
-                                      <div class="panel-body"> <b>Address :</b> Flat No: 3F, 4th Floor, Rednam Alcazar,
-                                          Opp. SBI Main Branch, Vodafone Building, Ramnagar, Old jail Road,
-                                          Visakhapatnam, ANDHRA PRADESH, India - 530002 <br><b>Email : </b> <a
-                                              href="mailto:intech_vizag@inspl.in">intech_vizag@inspl.in</a> <br><b>
-                                              Name: </b> Mr. Jagadeesh <br><b>Contact : </b> <a href="+91 8500147993">
-                                              +91 8500147993</a> </div>
-                                  </div>
-                              </div>
-                              <div class="panel panel-default">
-                                  <div class="panel-heading" role="tab" id="heading3">
-                                      <h4 class="panel-title">
-                                          <a class="collapsed" role="button" data-toggle="collapse"
-                                              data-parent="#accordion" href="#collapse3" aria-expanded="false"
-                                              aria-controls="collapse3">
-                                              <span class="left-icon"><i class="fa fa-location-arrow"></i></span>
-                                              Chennai
-                                          </a>
-                                      </h4>
-                                  </div>
-                                  <div id="collapse3" class="panel-collapse collapse" role="tabpanel"
-                                      aria-labelledby="heading3">
-                                      <div class="panel-body"> <b>Address :</b> No.17/1, First street, Santham Colony,
-                                          Anna Nagar west Extension, Chennai, TAMILNADU, India - 600101 <br><b>Email :
-                                          </b> <a href="mailto:chennai_claims@inspl.in">chennai_claims@inspl.in</a>
-                                          <br><b> Name: </b> Mrs. Vallikkannu <br><b>Contact : </b> <a
-                                              href="+91 9176258798">+91 9176258798</a></div>
-                                  </div>
-                              </div>
-
-                              <div class="panel panel-default">
-                                  <div class="panel-heading" role="tab" id="heading4">
-                                      <h4 class="panel-title">
-                                          <a class="collapsed" role="button" data-toggle="collapse"
-                                              data-parent="#accordion" href="#collapse4" aria-expanded="false"
-                                              aria-controls="collapse4">
-                                              <span class="left-icon"><i class="fa fa-location-arrow"
-                                                      aria-hidden="true"></i></span>
-                                              Indore
-                                          </a>
-                                      </h4>
-                                  </div>
-                                  <div id="collapse4" class="panel-collapse collapse" role="tabpanel"
-                                      aria-labelledby="heading4">
-
-                                      <div class="panel-body"> <b>Address :</b> 510, 5th Floor, Onam Plaza, AB Road,
-                                          Near Industry House, Indore, Madhya Pradesh, MADHYA PRADESH, India - 452001
-                                          <br><b>Email : </b> <a
-                                              href="mailto:intech_indoreclaims@inspl.in">intech_indoreclaims@inspl.in</a>
-                                          <br><b> Name: </b>Mr. Satish Mishra <br><b>Contact : </b> <a
-                                              href="+91 8806604232">+91 8806604232</a></div>
-                                  </div>
-                              </div>
-
-                              <div class="panel panel-default">
-                                  <div class="panel-heading" role="tab" id="heading5">
-                                      <h4 class="panel-title">
-                                          <a class="collapsed" role="button" data-toggle="collapse"
-                                              data-parent="#accordion" href="#collapse5" aria-expanded="false"
-                                              aria-controls="collapse5">
-                                              <span class="left-icon"><i class="fa fa-location-arrow"
-                                                      aria-hidden="true"></i></span>
-                                              Bangalore
-                                          </a>
-                                      </h4>
-                                  </div>
-                                  <div id="collapse5" class="panel-collapse collapse" role="tabpanel"
-                                      aria-labelledby="heading5">
-                                      <div class="panel-body"> <b>Address :</b> 14-39-108, 2nd Floor, 19th Main, 1st
-                                          Block, Rajajinagar, Bangalore, KARNATAKA, India - 560010 <br><b>Email : </b>
-                                          <a href="mailto:intech_bangalore@inspl.in">intech_bangalore@inspl.in</a>
-                                          <br><b> Name: </b>Mr. Balasubramanyam <br><b>Contact : </b> <a
-                                              href="+91 9742900777">+91 9742900777</a> </div>
-                                  </div>
-                              </div>
-
-                              <div class="panel panel-default">
-                                  <div class="panel-heading" role="tab" id="heading6">
-                                      <h4 class="panel-title">
-                                          <a class="collapsed" role="button" data-toggle="collapse"
-                                              data-parent="#accordion" href="#collapse6" aria-expanded="false"
-                                              aria-controls="collapse6">
-                                              <span class="left-icon"><i class="fa fa-location-arrow"
-                                                      aria-hidden="true"></i></span>
-                                              Delhi
-                                          </a>
-                                      </h4>
-                                  </div>
-                                  <div id="collapse6" class="panel-collapse collapse" role="tabpanel"
-                                      aria-labelledby="heading6">
-                                      <div class="panel-body"> <b>Address :</b> RZ-9A, Shankar Park, West Sagarpur,
-                                          Delhi, India - 110046 <br><b>Email : </b> <a
-                                              href="mailto:intech_delhi@inspl.in">intech_delhi@inspl.in</a> <br><b>
-                                              Name: </b>CA Gaurav Bansal <br><b>Contact : </b> <a
-                                              href="+91 8750740427">+91 8750740427</a></div>
-                                  </div>
-                              </div>
-
-                              <div class="panel panel-default">
-                                  <div class="panel-heading" role="tab" id="heading7">
-                                      <h4 class="panel-title">
-                                          <a class="collapsed" role="button" data-toggle="collapse"
-                                              data-parent="#accordion" href="#collapse7" aria-expanded="false"
-                                              aria-controls="collapse7">
-                                              <span class="left-icon"><i class="fa fa-location-arrow"
-                                                      aria-hidden="true"></i></span>
-                                              Bhubaneshwar
-                                          </a>
-                                      </h4>
-                                  </div>
-                                  <div id="collapse7" class="panel-collapse collapse" role="tabpanel"
-                                      aria-labelledby="heading7">
-                                      <div class="panel-body"> <b>Address :</b> Janpath Tower, B-202, 2nd Floor, Ashok
-                                          Nagar, Unit- II, Bhubaneswar, Khurda, ORISSA, India - 751009 <br><b>Email :
-                                          </b> <a
-                                              href="mailto:intech_bhubaneshwar@inspl.in">intech_bhubaneshwar@inspl.in</a>
-                                          <br><b> Name: </b>Mr. Subhendu Kumar Sabat <br><b>Contact : </b> <a
-                                              href="+91 9658936260">+91 9658936260</a></div>
-                                  </div>
-                              </div>
-
-                              <div class="panel panel-default">
-                                  <div class="panel-heading" role="tab" id="heading8">
-                                      <h4 class="panel-title">
-                                          <a class="collapsed" role="button" data-toggle="collapse"
-                                              data-parent="#accordion" href="#collapse8" aria-expanded="false"
-                                              aria-controls="collapse8">
-                                              <span class="left-icon"><i class="fa fa-location-arrow"
-                                                      aria-hidden="true"></i></span>
-                                              Kolkata
-                                          </a>
-                                      </h4>
-                                  </div>
-                                  <div id="collapse8" class="panel-collapse collapse" role="tabpanel"
-                                      aria-labelledby="heading8">
-                                      <div class="panel-body"> <b>Address :</b> Siddha Weston, 4th floor, Room No- 419,
-                                          9 Weston Street, Kolkata, WEST BENGAL, India - 700013 <br><b>Email : </b> <a
-                                              href="mailto:intech_kolkata@inspl.in">intech_kolkata@inspl.in</a> <br><b>
-                                              Name: </b>Mr. Om Prakash Jena <br><b>Contact : </b> <a
-                                              href="+91 8017079675 ">+91 8017079675 </a></div>
-                                  </div>
-                              </div>
-
-                              <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading9">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                        data-parent="#accordion" href="#collapse9" aria-expanded="false"
-                                        aria-controls="collapse9">
-                                        <span class="left-icon"><i class="fa fa-location-arrow"
-                                                aria-hidden="true"></i></span>
-                                        Patna
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse9" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="heading9">
-                                <div class="panel-body"> <b>Address :</b> Flat No. 4, 2nd Floor, Surabhi Bihar Apartment, Behind Navatara Sweet, Near Mithapur Bus Stand, Kankarbagh, Patna - 800020 <br><b>Email :
-                                    </b> <a href="mailto:intech_patna@inspl.in">intech_patna@inspl.in</a> </div>
-                            </div>
-                        </div>
-
-
-                        
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading10">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                        data-parent="#accordion" href="#collapse10" aria-expanded="false"
-                                        aria-controls="collapse10">
-                                        <span class="left-icon"><i class="fa fa-location-arrow"
-                                                aria-hidden="true"></i></span>
-                                        Guwahati 
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse10" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="heading10">
-                                <div class="panel-body"> <b>Address :</b> House No. 09, 2nd Floor, Luit Nagar, Satgaon, Guwahati, Assam 781026 <br><b>Email :
-                                    </b> <a href="mailto:intech_guwahati@inspl.in">intech_guwahati@inspl.in</a> </div>
-                            </div>
-                        </div>
-                        
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading11">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                        data-parent="#accordion" href="#collapse11" aria-expanded="false"
-                                        aria-controls="collapse11">
-                                        <span class="left-icon"><i class="fa fa-location-arrow"
-                                                aria-hidden="true"></i></span>
-                                                Cochin
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse11" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="heading11">
-                                <div class="panel-body"> <b>Address :</b>Cochin,Kerala-682001 <br><b>Email :
-                                    </b> <a href="mailto:intech_cochin@inspl.in">intech_cochin@inspl.in</a> </div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading12">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                        data-parent="#accordion" href="#collapse12" aria-expanded="false"
-                                        aria-controls="collapse12">
-                                        <span class="left-icon"><i class="fa fa-location-arrow"
-                                                aria-hidden="true"></i></span>
-                                                Jharkhand 
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse12" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="heading9">
-                                <div class="panel-body"> <b>Address :</b> Flat No. 1460,  Sahar Garden City, Adityapur-2, Saraikela Kharsawan, Jharkhand - 831014 <br><b>Email :
-                                    </b> <a href="mailto:intech_jharkhand@inspl.in">intech_jharkhand@inspl.in</a> </div>
-                            </div>
-                        </div>
-                              
-                          </div>
-                      </div>
-                  </div>
+          <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+              <div class="location-container">
+                <!-- <div class="location-left-block">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1xYkx7aurp9O9As7bGw0PUXFP75R080Q&ehbc=2E312F" width="100%" height="725" style="border:1px solid
+                    #666b7e; border-radius: 10px;"  allowfullscreen="" loading="lazy"></iframe>
+    
+                  </div>  -->
+                <div class="location-right-block">
+                   <ul>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Hyderabad</h4></div>
+                        <p>Suit No 4D, Vamsiram’s Jyothi Square, Road No 3, Banjara Hills<br>Hyderabad – 500034 Telangana, India</p>
+                        <div class="_flex"><span><i class="fa fa-phone gray-icon gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 8500147993">+91 8500147993</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Mrs. Shirisha</p></div>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span><p><strong> Email: </strong><a href="mailto:claims@inspl.in">claims@inspl.in</a></p></div>
+                    </li>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Visakhapatnam</h4></div>
+                        <p>Flat No: 3F, 4th Floor, Rednam Alcazar, Opp. SBI Main Branch, Vodafone Building, Ramnagar, Old jail Road<br>Visakhapatnam,  – 530002 ANDHRA PRADESH, India</p>
+                        <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 9000789448">+91 9000789448</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Mrs. Jagadeesh  </p></div>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:intech_vizag@inspl.in">intech_vizag@inspl.in</a></p></div>
+                    </li>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Chennai</h4></div>
+                        <p>No.17/1, First street, Santham Colony, Anna Nagar west Extension<br>Chennai,  – 600101 TAMILNADU, India</p>
+                        <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 9176258798">+91 9176258798</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Mrs. Vallikkannu </p></div>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:chennai_claims@inspl.in">chennai_claims@inspl.in</a></p></div>
+                    </li>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Indore</h4></div>
+                        <p>510, 5th Floor, Onam Plaza, AB Road, Near Industry House<br>Indore – 452001 Madhya Pradesh, India</p>
+                        <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 8806604232">+91 8806604232</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Mrs. Satish Mishra</p></div>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="intech_indoreclaims@inspl.in">intech_indoreclaims@inspl.in</a></p></div>
+                    </li>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Bangalore</h4></div>
+                        <p>14-39-108, 2nd Floor, 19th Main, 1st Block, Rajajinagar<br>Bangalore – 560010 KARNATAKA, India</p>
+                        <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 9742900777">+91 9742900777</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Mrs. Balasubramanyam</p></div>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:intech_bangalore@inspl.in">intech_bangalore@inspl.in</a></p></div>
+                    </li>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Delhi</h4></div>
+                        <p>RZ-9A, Shankar Park, West Sagarpur<br>Delhi – 110046 Delhi, India</p>
+                        <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 8750740427">+91 8750740427</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>CA Gaurav Bansal</p></div>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:intech_delhi@inspl.in">intech_delhi@inspl.in</a></p></div>
+                    </li>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Bhubaneshwar</h4></div>
+                        <p>Janpath Tower, B-202, 2nd Floor, Ashok Nagar, Unit- II<br>Bhubaneswar, Khurda – 751009 ORISSA, India</p>
+                        <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 9658936260">+91 9658936260</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Mrs. Subhendu Kumar Sabat</p></div>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:intech_bhubaneshwar@inspl.in">intech_bhubaneshwar@inspl.in</a></p></div>
+                    </li>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Kolkata</h4></div>
+                        <p>Siddha Weston, 4th floor, Room No- 419, 9 Weston Street<br>Kolkata – 700013 WEST BENGAL, India</p>
+                        <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 8017079675">+91 8017079675</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Mrs. Om Prakash Jena</p></div>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:intech_kolkata@inspl.in">intech_kolkata@inspl.in</a></p></div>
+                    </li>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Patna</h4></div>
+                        <p>Flat No. 4, 2nd Floor, Surabhi Bihar Apartment, Behind Navatara Sweet, Near Mithapur Bus Stand, Kankarbagh<br>Patna – 800020 Bihar, India</p>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="intech_patna@inspl.in">intech_patna@inspl.in</a></p></div>
+                    </li>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Guwahati </h4></div>
+                        <p>House No. 09, 2nd Floor, Luit Nagar, Satgaon<br>Guwahati – 781026 Assam, India</p>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:intech_guwahati@inspl.in">intech_guwahati@inspl.in</a></p></div>
+                    </li>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Cochin</h4></div>
+                        <p>Cochin<br>Kerala-682001 Telangana, India</p>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:intech_cochin@inspl.in">intech_cochin@inspl.in</a></p></div>
+                    </li>
+                    <li>
+                        <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Jharkhand</h4></div>
+                        <p>Flat No. 1460,  Sahar Garden City, Adityapur-2, Saraikela Kharsawan<br>Jharkhand – 831014 Jharkhand, India</p>
+                        <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:intech_jharkhand@inspl.in">intech_jharkhand@inspl.in</a></p></div>
+                    </li>
+                   </ul>
+                </div> 
               </div>
+            </div>
           </section>
           <section class="promo_box reverse wow bounceInUp" data-wow-offset="50">
               <div class="container">
