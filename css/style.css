@@ -792,6 +792,11 @@ ul.sm li *,ul.sm li *:before,ul.sm li *:after{-moz-box-sizing:content-box;-webki
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+.card .card-img-top {
+    border-radius: 50%;
+    height: 200px;
+    width: 212px;
+}
 
 /*------------Hover_Effect_CSS------------*/
 .navbar-default .navbar-nav > li > a {
@@ -3703,7 +3708,37 @@ section.parallax h2 {
     line-height: 2;
     font-family: Open Sans,Helvetica, Arial, sans-serif;
 }
-
+/* ================ Location ======================= */
+.location-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.location-container .location-left-block {
+    width: 50%;
+    padding: 10px 20px;
+}
+.location-container .location-right-block {
+    width: 50%;
+    padding: 0px 20px;
+}
+.location-container .location-right-block ul{
+    width: 100%;
+    padding: 0;
+}
+.location-container .location-right-block ul li {
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    width: calc(50% - 52px);
+    margin-bottom: 1.5rem;
+    margin-right: 50px;
+}
+.location-container .location-right-block ul li h4 {
+    font-size: 25px;
+    background: -webkit-linear-gradient(45deg, #3c3d96, #000010);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 /* ===================================================== */
 /* 17. CLIENTS												 */
@@ -5581,6 +5616,21 @@ ul{
 }
 
 @media only screen and (max-width: 767px) {
+    .smart-choice-section .card-block .text-block {
+        min-height: 250px;
+    }
+    .location-container {
+        flex-direction: column;
+    }
+    .location-container .location-left-block {
+        width: 100%;
+    }
+    .location-container .location-right-block {
+        width: 100%;
+    }
+    .location-container .location-right-block ul li {
+        width:100%;
+    }
     .flex_caption1 .slide-heading {
         font-size: 18px;
     }
