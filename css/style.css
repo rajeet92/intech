@@ -3714,30 +3714,47 @@ section.parallax h2 {
     flex-wrap: wrap;
 }
 .location-container .location-left-block {
-    width: 50%;
+    width: 100%;
     padding: 10px 20px;
 }
 .location-container .location-right-block {
-    width: 50%;
+    width: 100%;
     padding: 0px 20px;
 }
 .location-container .location-right-block ul{
     width: 100%;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 .location-container .location-right-block ul li {
-    display: inline-block;
-    list-style: none;
-    vertical-align: top;
-    width: calc(50% - 52px);
-    margin-bottom: 1.5rem;
-    margin-right: 50px;
+    width: 30%;
+    box-shadow: 0 0 10px rgb(1 118 190 / 10%);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 15px;
 }
 .location-container .location-right-block ul li h4 {
     font-size: 25px;
     background: -webkit-linear-gradient(45deg, #3c3d96, #000010);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+._flex {
+    display: flex;
+    align-items: center;
+}
+._flex span i {
+    font-size: 22px;
+    margin-right: 10px;
+    color: #3c3d96;
+}
+._flex span i.gray-icon {
+    font-size: 15px;
+    color: #999;
+}
+._flex p {
+    margin: 0;
 }
 
 /* ===================================================== */
@@ -5616,6 +5633,9 @@ ul{
 }
 
 @media only screen and (max-width: 767px) {
+    .location-container .location-right-block ul li {
+        margin: 10px 0;
+    }
     .smart-choice-section .card-block .text-block {
         min-height: 250px;
     }
@@ -5627,6 +5647,7 @@ ul{
     }
     .location-container .location-right-block {
         width: 100%;
+        padding: 0;
     }
     .location-container .location-right-block ul li {
         width:100%;
