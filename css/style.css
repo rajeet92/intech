@@ -407,6 +407,9 @@ a:focus{
 .mt{
     margin-top:30px;
 }
+.mb{
+    margin-bottom:20px;
+}
 .flex_caption1 {
     position: absolute;
     z-index: 99;
@@ -1578,6 +1581,10 @@ figure .option{
     font-family: "Nunito", sans-serif;
     font-size: 14px;
     padding-top: 10px;
+}
+._block {
+    width: 100%;
+    float: left;
 }
 
 figure .option .fa {
@@ -5672,6 +5679,9 @@ ul{
 }
 
 @media only screen and (max-width: 767px) {
+    .list_style.circle li {
+        padding: 10px 15px 10px 50px;
+    }
     .location-container .location-right-block ul li {
         margin: 10px 0;
     }
