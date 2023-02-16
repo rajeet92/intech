@@ -106,7 +106,7 @@ if(isset($_POST["send-message"])){
                                         <li><a class="smooth-goto" href="who-we-are.html#about">Who We Are</a></li>
                                         <li><a class="smooth-goto" href="who-we-are.html#corporatejourny">Corporate Journey</a></li>
                                         <li><a class="smooth-goto" href="who-we-are.html#ourexpert">Fame of Intech</a></li>
-                                        <li><a class="smooth-goto" href="who-we-are.html#ourteam">Team</a></li>
+                                        <!-- <li><a class="smooth-goto" href="who-we-are.html#ourteam">Team</a></li> -->
                                         <li><a class="smooth-goto" href="who-we-are.html#ourclient">Our Client</a></li>
                                         <li><a class="smooth-goto" href="who-we-are.html#missionvission">Mission & Vision</a></li>
                                     </ul>
