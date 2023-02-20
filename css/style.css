@@ -1372,7 +1372,7 @@ figure {
 }
 .service-banner .service-banner-inner img{
     width:100%;
-    height: 450px;
+    height: 250px;
 }
 .service-banner-inner .sub-heading {
     position: absolute;
@@ -5702,6 +5702,9 @@ ul{
 }
 
 @media only screen and (max-width: 767px) {
+    .service-banner .service-banner-inner img {
+        height: 230px;
+    }
     .contact .dividerHeading1 {
         padding: 0 0 0 0px !important;
     }
