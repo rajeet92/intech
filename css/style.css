@@ -367,7 +367,7 @@ a:focus{
 #menu-bar{
     position: relative;
     z-index: 9999;
-    /* background-image: url('../p5.png'); */
+    /* background-image: url('../texture.jpg'); */
     background: #fff;
     box-shadow: 0 5px 5px -6px #000;
 }
@@ -789,6 +789,7 @@ ul.sm li *,ul.sm li *:before,ul.sm li *:after{-moz-box-sizing:content-box;-webki
 .card {
     box-shadow: 0 0 10px rgb(1 118 190 / 10%);
     padding: 20px 0;
+    background: #fff;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -1580,6 +1581,7 @@ figure .option{
 }
 .counts {
     padding: 70px 0 60px;
+    background-image: url('../texture.jpg');
 } 
 .counts .count-box {
     display: flex;
@@ -2677,8 +2679,8 @@ a.back_home {
 /* OUR TEAM PAGE
 ===================================================== */
 .team{
-    /* background-image: url('../p5.png'); */
-    background: #fff;
+    background-image: url('../texture.jpg');
+    /* background: #fff; */
 }
 .team-item-content {
     overflow: hidden;
@@ -3312,8 +3314,8 @@ section.parallax h2 {
 /* ======================================================================== */
 .info_service {
     padding:1% 0 0;
-    /* background-image: url('../p5.png'); */
-    background: #fff;
+    background-image: url('../texture.jpg');
+    /* background: #fff; */
 }
 
 /* Service Box 1
@@ -3382,6 +3384,7 @@ section.parallax h2 {
 .serviceBox_2{
     background: hsl(0, 0%, 100%);
     box-shadow: 0 0 10px rgb(1 118 190 / 10%);
+    background: #fff;
     padding: 20px;
     margin-top: 20px;
     border-radius: 30px;
@@ -3397,27 +3400,27 @@ section.parallax h2 {
 }
 .bg-color1{
     /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
-    background: transparent;
+    /* background: transparent; */
 }
 .bg-color2{
     /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
-    background: transparent;
+    /* background: transparent; */
 }
 .bg-color3{
     /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
-    background: transparent;
+    /* background: transparent; */
 }
 .bg-color4{
     /* background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%); */
-    background: transparent;
+    /* background: transparent; */
 }
 .bg-color5{
     /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
-    background: transparent;
+    /* background: transparent; */
 }
 .bg-color6{
     /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); */
-    background: transparent;
+    /* background: transparent; */
 }
 .serviceBox_2 {
     margin-bottom: 20px;
