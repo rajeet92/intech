@@ -151,23 +151,23 @@ if(isset($_POST["send-message"])){
           <!--End Main Menu -->
       </header>
 
-      <section class="page_head">
+      <!-- <section class="page_head">
           <div class="container">
               <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12">
-                      <nav id="breadcrumbs">
-                          <ul>
-                              <li><a href="index.html">Home</a></li>
-                              <li>contacts</li>
-                          </ul>
-                      </nav>
-                      <div class="page_title">
-                          <h2>contact Us</h2>
-                      </div>
+                  <img src="images/images/back_contact.jpg" alt="">
                   </div>
               </div>
           </div>
-      </section>
+      </section> -->
+      <section class="service-banner">
+        <div class="service-banner-inner">
+            <img src="images/images/back_contact.jpg" alt="">
+            <div class="sub-heading">
+                <h4>CONTACT US</h4>
+            </div>
+        </div>
+</section>
       <!--End Header-->
 
       <!--start wrapper-->
@@ -175,90 +175,90 @@ if(isset($_POST["send-message"])){
           <section class="content contact">
               <div class="container">
                   <div class="row sub_content">
-                      <div class="dividerHeading">
-                          <h4><span>Get in Touch</span></h4>
-                          <p style="text-align:center;">Welcome to INTECH Insurance Surveyors Private Limited. How May I Assist You..?</p> <br>
-                      </div>
                      <div class="row card" style="padding:20px;">
-                     <div class="col-lg-7 col-md-7 col-sm-7" style="border: 1px solid #182554; padding: 27px;">
+                     <div class="col-lg-6 col-md-6 col-sm-12">
+                     <div class="dividerHeading">
+                          <h4>Get in Touch</h4>
+                          <p style="text-align:left;">Welcome to INTECH Insurance Surveyors Private Limited. How May I Assist You..?</p> <br>
+                      </div>
                           <form id="contacts" action="contact.php" method="post">
                               <div class="row">
                                   <div class="form-group">
-                                      <div class="col-lg-6 ">
+                                      <div class="col-lg-12 ">
+                                        <label for="names">Full Name <sup style="color:red">*</sup></label>
                                           <input type="text" id="names" name="name" class="form-control" maxlength="100"
                                               data-msg-required="Please enter your name." value=""
-                                              placeholder="Your Name">
+                                              placeholder="">
                                       </div>
-                                      <div class="col-lg-6 ">
+                                  </div>
+                                  <div class="form-group">
+                                         <div class="col-lg-12 ">
+                                            <label for="emails">Email <sup style="color:red">*</sup></label>
                                           <input type="email" id="emails" name="email" class="form-control"
                                               maxlength="100" data-msg-email="Please enter a valid email address."
                                               data-msg-required="Please enter your email address." value=""
-                                              placeholder="Your E-mail">
+                                              placeholder="">
                                       </div>
                                   </div>
-                              </div>
-                              <div class="row">
                                   <div class="form-group">
                                       <div class="col-md-12">
+                                        <label for="subjects">Subject <sup style="color:red">*</sup></label>
                                           <input type="text" id="subjects" name="subject" class="form-control"
                                               maxlength="100" data-msg-required="Please enter the subject." value=""
-                                              placeholder="Subject">
+                                              placeholder="">
                                       </div>
                                   </div>
-                              </div>
-                              <div class="row">
                                   <div class="form-group">
                                       <div class="col-md-12">
-                                          <textarea id="messages" class="form-control" name="message" rows="10"
-                                              cols="50" data-msg-required="Please enter your message." maxlength="5000"
-                                              placeholder="Message"></textarea>
+                                        <label for="messages">Message <sup style="color:red">*</sup></label>
+                                          <textarea id="messages" class="form-control" name="message" rows="5"
+                                              cols="5" data-msg-required="Please enter your message." maxlength="5000"
+                                              placeholder=""></textarea>
                                       </div>
                                   </div>
                               </div>
                               <div class="row">
                                   <div class="col-md-12">
-                                      <input  style="margin-top: 35px; margin-left: 40%;"  type="submit" data-loading-text="Loading..." class="btn btn-default btn-lg"
+                                      <input  style="margin-top: 35px; width:100%;"  type="submit" data-loading-text="Loading..." class="btn btn-default btn-lg"
                                           value="Send Message" name="send-message">
                                   </div>
                               </div>
                           </form>
                       </div>
 
-                      <div class="col-lg-5 d-flex align-items-stretch">
+                      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+                      <div class="dividerHeading dividerHeading1">
+                          <h4>Contact</h4>
+                      </div>
                           <div class="info">
                               <div class="address">
-                                  <i class="fa fa-location-arrow"></i>
+                                  <!-- <i class="fa fa-location-arrow"></i> -->
                                   <h4>Corp. Office </h4>
-                                  <p>Intech Insurance Surveyors And Loss Assessors Pvt. Ltd. <br>
-                                      Suite No.4D, Vamsiram's Jyothi Square, Road No.3, Banjara Hills,
-                                      <strong>Hyderabad</strong> Telangana</p>
+                                  <p>Intech Insurance Surveyors And Loss Assessors Pvt. Ltd. Suite No.4D, Vamsiram's Jyothi Square, Road No.3, Banjara Hills <strong>Hyderabad</strong> Telangana</p>
                               </div>
-                              <p><strong><span style="color: #00325e; font-size: 16px;">Email : </span></strong>
+                              <p class="contact-email-phone"><i class="fa  fa-envelope"></i>
                                   <a href="mailto:sk@inspl.in">sk@inspl.in</a> / <a
                                       href="mailto:claims@inspl.in">claims@inspl.in</a> /
                                   <a href="mailto:madhu@inspl.in">madhu@inspl.in</a>
                               </p>
-                              <p><strong><span style="color: #00325e; font-size: 16px;">Call : </span></strong><a
+                              <p class="contact-email-phone"><i class="fa fa-phone"></i><a
                                       href="tel: +91 40 48526006">040 40188844</a></p>
-                              <hr>
                               <br>
 
                               <div class="address">
-                                  <i class="fa fa-location-arrow"></i>
+                                  <!-- <i class="fa fa-location-arrow"></i> -->
                                   <h4>Regd. Office</h4>
                                   <p>Intech Insurance Surveyors And Loss Assessors Pvt. Ltd. <br>
                                       16-11-20, Flat no. G-3, Bharani Apartments, Saleemnagar, Malakpet ,
                                       <strong>Hyderabad</strong> 500036.</p>
                               </div>
-                              <p><strong><span style="color: #00325e; font-size: 16px;">Email : </span></strong>
+                              <p class="contact-email-phone"><i class="fa  fa-envelope"></i>
                                   <a href="mailto:sk@inspl.in">sk@inspl.in</a> / <a
                                       href="mailto:claims@inspl.in">claims@inspl.in</a> /
                                   <a href="mailto:madhu@inspl.in">madhu@inspl.in</a>
                               </p>
-                              <p><strong><span style="color: #00325e; font-size: 16px;">Call : </span></strong><a
+                              <p class="contact-email-phone"><i class="fa fa-phone"></i><a
                                       href="tel: +91 40 - 24544815">+91 40 - 24544815</a></p>
-
-
                           </div>
                       </div>
                      </div>
