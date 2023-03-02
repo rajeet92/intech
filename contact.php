@@ -392,79 +392,82 @@ if(isset($_POST["send-message"])){
 
       <!--start footer-->
       <footer class="footer">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-6 col-md-3 col-lg-3">
-                      <div class="widget_title">
-                          <h4><span>Find Us</span></h4>
-                      </div>
-                       <div class="widget_content">
-                        <p>Corporate office Address: <br> Intech Insurance Surveyors And Loss Assessors Pvt. Ltd., 
-                            Suit No 4D, Vamsiram’s Jyothi Square, Road No 3, Banjara Hills, Hyderabad, Telangana, India – 500034.</p>
-                              Contact - <a style="color: #fff;" href="tel: +91 040 40188844"> +91 040 40188844</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <div class="widget_title">
+                        <h4><span>Find Us</span></h4>
                     </div>
-                  </div>
-                  <div class="col-sm-6 col-md-3 col-lg-3">
-                      <div class="widget_title">
-                          <h4><span>Services</span></h4>
-                      </div>
-                      <div class="widget_content">
-                          <ul class="links">
-                              <li> <a href="motor.html">Surveyors And Loss Assessors</a></li>
-                              <li> <a href="risk-inspections.html">Risk Inspections </a></li>
-                              <li> <a href="property-valuations.html">Property Valuations </a></li>
-                              <li> <a href="pre-dishpaches.html">Pre-Dispatches </a></li>
-                              <li> <a href="charted-engineering.html">Charted Engineering Certifications </a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-3 col-lg-3">
-                      <div class="widget_title">
-                          <h4><span>Additional Information</span></h4>
-                      </div>
-                      <div class="widget_content">
-                          <ul class="links">
-                              <li> <a href="who-we-are.html">Who We Are</a></li>
-                              <li> <a href="fame of intech.html">LimeLight of INTECH </a></li>
-                              <li> <a href="corporate-journey.html">Corporate Journey </a></li>
-                              <li> <a href="vission.html">Mission & Vision </a></li>
-                              <li> <a href="contact.php">Contact Us </a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-3 col-lg-3">
-                      <div class="widget_title">
-                          <h4><span>Social Media Links</span></h4>
-                      </div>
-                      <div>
-                          <ul class="links">
-                              <li> <i class="fa fa-twitter"> </i> <a href="https://twitter.com/intech_cms" target="_blank">&nbsp; Twitter</a></li>
-                              <li> <i class="fa fa-linkedin"> </i> <a href="https://www.linkedin.com/in/intech-insurance-surveyors-83709521b" target="_blank">&nbsp; Linkedin</a></li>
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <section class="footer_bottom">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-6">
-                      <p class="copyright">&copy; 2020 INTECH. All Rights Reserved.</p>
-                  </div>
+                    <div class="widget_content">
+                        <p>Corporate office Address: <br> Intech Insurance Surveyors And Loss Assessors Pvt. Ltd.,
+                            Suit No 4D, Vamsiram’s Jyothi Square, Road No 3, Banjara Hills, Hyderabad, Telangana, India – 500034.</p>
+                       Contact - <a style="color: #fff;" href="tel: +91 040 40188844"> +91 040 40188844</a>
+                            
 
-                  <div class="col-sm-6 ">
-                      <div class="footer_social">
-                          <ul class="footbot_social">
-                              <li><a class="twtr" href="https://twitter.com/intech_cms" target="_blank" data-placement="top" data-toggle="tooltip"
-                                      title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                              <li><a class="linkedin" href="https://www.linkedin.com/in/intech-insurance-surveyors-83709521b" target="_blank" data-placement="top" data-toggle="tooltip"
-                                      title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <div class="widget_title">
+                        <h4><span>Services</span></h4>
+                    </div>
+                    <div class="widget_content">
+                        <ul class="links">
+                            <li> <a href="risk-inspections.html#motor">Surveyors And Loss Assessors</a></li>
+                            <li> <a href="risk-inspections.html">Risk Inspections </a></li>
+                            <li> <a href="risk-inspections.html#propertyvaluations">Property Valuations </a></li>
+                            <li> <a href="risk-inspections.html#dispatch">Pre-Dispatches </a></li>
+                            <li> <a href="risk-inspections.html#chartedEngineer">Charted Engineering Certifications </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <div class="widget_title">
+                        <h4><span>Additional Information</span></h4>
+                    </div>
+                    <div class="widget_content">
+                        <ul class="links">
+                            <li> <a href="who-we-are.html#about">Who We Are</a></li>
+                            <li> <a href="who-we-are.html#ourexpert">LimeLight of INTECH </a></li>
+                            <li> <a href="who-we-are.html#corporatejourny">Corporate Journey </a></li>
+                            <li> <a href="who-we-are.html#missionvission">Mission & Vision </a></li>
+                            <li> <a href="contact.php">Contact Us </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <div class="widget_title">
+                        <h4><span>Social Media Links</span></h4>
+                    </div>
+                    <div class="widget_content">
+                        <ul class="links">
+                            <li> <i class="fa fa-twitter"> </i> <a href="https://twitter.com/intech_cms" target="_blank">&nbsp; Twitter</a></li>
+                            <li> <i class="fa fa-linkedin"> </i> <a href="https://www.linkedin.com/in/intech-insurance-surveyors-83709521b" target="_blank">&nbsp; Linkedin</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="footer_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="copyright"> &copy; 2020 INTECH. All Rights Reserved.</p>
+                    </div>
+    
+                    <div class="col-sm-6 ">
+                        <div class="footer_social">
+                            <ul class="footbot_social">
+                                <li><a class="twtr" href="https://twitter.com/intech_cms" target="_blank" data-placement="top" data-toggle="tooltip"
+                                        title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="linkedin" href="https://www.linkedin.com/in/intech-insurance-surveyors-83709521b" target="_blank"
+                                        data-placement="top" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
       </footer>
       <!--end footer-->
 

@@ -856,8 +856,8 @@ ul.sm li *,ul.sm li *:before,ul.sm li *:after{-moz-box-sizing:content-box;-webki
 }
 .footer{
     /* background:#182454; */
-    background: url(https://www.psepl.com/images/bg_footer.png);
-    padding:30px 0 0;
+    background: #0f5ea3 url(../images/bg_footer.png) repeat-x bottom;
+    padding:80px 0 0;
     position: relative;
     color:#fff;
 }
