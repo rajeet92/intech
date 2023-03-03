@@ -300,8 +300,8 @@ if(isset($_POST["send-message"])){
                     <li>
                         <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Indore</h4></div>
                         <p>510, 5th Floor, Onam Plaza, AB Road, Near Industry House<br>Indore – 452001 Madhya Pradesh, India</p>
-                        <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 8806604232">+91 8806604232</a></p></div>
-                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Mrs. Satish Mishra</p></div>
+                        <!-- <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 8806604232">+91 8806604232</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Mrs. Satish Mishra</p></div> -->
                         <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="intech_indoreclaims@inspl.in">intech_indoreclaims@inspl.in</a></p></div>
                     </li>
                     <li>
@@ -339,17 +339,23 @@ if(isset($_POST["send-message"])){
                     </li>
                     <li>
                         <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Guwahati </h4></div>
-                        <p>House No. 09, 2nd Floor, Luit Nagar, Satgaon<br>Guwahati – 781026 Assam, India</p>
+                        <p>House No.8A, Ground Floor, By Lane 01, Adabari Tinali, Ananda Nagar, Pandu<br>Guwahati – 781012 Assam, India</p>
+                        <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 9126303626">+91 9126303626</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Aditya Prasad</p></div>
                         <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:intech_guwahati@inspl.in">intech_guwahati@inspl.in</a></p></div>
                     </li>
                     <li>
                         <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Cochin</h4></div>
-                        <p>Cochin<br>Kerala-682001 Telangana, India</p>
+                        <p>1st floor, PRS Complex, NH47, Near Aluva Market, Pillar No 41, Ernakulam<br>Kerala - 683101India</p>
+                        <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 8075402245">+91 8075402245</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Jithu Prabha</p></div>
                         <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:intech_cochin@inspl.in">intech_cochin@inspl.in</a></p></div>
                     </li>
                     <li>
                         <div class="_flex"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span><h4>Jharkhand</h4></div>
                         <p>Flat No. 1460,  Sahar Garden City, Adityapur-2, Saraikela Kharsawan<br>Jharkhand – 831014 Jharkhand, India</p>
+                        <div class="_flex"><span><i class="fa fa-phone gray-icon" aria-hidden="true"></i></span><p><strong>Phone:</strong><a href="+91 8335043110">+91 8335043110</a></p></div>
+                        <div class="_flex"><span><i class="fa fa-user gray-icon" aria-hidden="true"></i></span><p><strong> Name: </strong>Ravi Kumar</p></div>
                         <div class="_flex"><span><i class="fa fa-envelope gray-icon" aria-hidden="true"></i></span></strong><p><strong> Email: </strong><a href="mailto:intech_jharkhand@inspl.in">intech_jharkhand@inspl.in</a></p></div>
                     </li>
                    </ul>

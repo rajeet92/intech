@@ -3850,6 +3850,7 @@ ul.client_items li {
     list-style:none;
     margin: 19px;
     background: #fff;
+    min-height: 140px;
 }
 ul.client_items {
     position: relative;
