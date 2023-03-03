@@ -1582,7 +1582,7 @@ figure .option{
 }
 .counts {
     padding: 70px 0 60px;
-    background-image: url('../texture.jpg');
+    /* background-image: url('../texture.jpg'); */
 } 
 .counts .count-box {
     display: flex;
@@ -2680,7 +2680,7 @@ a.back_home {
 /* OUR TEAM PAGE
 ===================================================== */
 .team{
-    background-image: url('../texture.jpg');
+    /* background-image: url('../texture.jpg'); */
     /* background: #fff; */
 }
 .team-item-content {
@@ -3315,7 +3315,7 @@ section.parallax h2 {
 /* ======================================================================== */
 .info_service {
     padding:1% 0 0;
-    background-image: url('../texture.jpg');
+    /* background-image: url('../texture.jpg'); */
     /* background: #fff; */
 }
 
