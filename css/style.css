@@ -5715,6 +5715,9 @@ ul{
 }
 
 @media only screen and (max-width: 767px) {
+    .navbar-default .navbar-nav > li > a {
+        color:#404192;
+    }
     .service-banner .service-banner-inner img {
         height: 230px;
     }
@@ -5756,7 +5759,7 @@ ul{
         font-size: 18px;
     }
     .flex_caption1 {
-        top: 25%;
+        top: 20%;
         left: 5%;
     }
     .flex_caption1 .sub-line {
